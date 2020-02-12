@@ -41,7 +41,7 @@ NOTE :: CREATE A PROJECT FOR LOGIN PAGE AND HOST IT. </br>:: CREATE ANOTHER PROJ
 </br> ::COPY the URL and paste it on the Main_code in the WEBPAGE_CREATION.
 
 ## ACCESSING DATA FROM FIREBASE
-* follow the [this link](https://www.youtube.com/watch?v=zAmrWiVdlec) and refer the [Main_code](https://github.com/Godson-Thomas/IOT_based_Attendence_System/blob/master/WEBPAGE_CREATION/Main_code.html).
+* follow the [this link](https://www.youtube.com/watch?v=zAmrWiVdlec) and refer the [Main_code](https://github.com/Godson-Thomas/IOT_based_Attendance_System/blob/master/WEBPAGE_CREATION/Main_code.html).
 
 # REGARDS
 ## To Mrs Sreevidya P Menon </br>

@@ -1,0 +1,109 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+   
+	
+  </head>
+  <body>
+<style>
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191911;
+  text-align: center;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type = "button"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type = "Reset"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "button"]:hover{
+  background: #2ecc71;
+}
+</style>
+<form class="box" action="index.html" method="post" name="form1">
+  <h1>LOGIN</h1>
+  <input type="text" name="name" placeholder="Username">
+  <input type="password" name="pass" placeholder="Password">
+  <input type="button" name="log" value="Login" onclick="validate()">
+  <input type="Reset" name="res" value="Reset">
+</form>
+
+<script>
+function validate()
+{
+a=document.form1.name.value;
+b=document.form1.pass.value;
+if(a=="user" && b=="1234")
+{
+window.location.replace(""); //give the url of the webpage after hosting
+}
+else 
+{
+
+alert("CHECK USERNAME OR PASSWORD!!!");
+}
+}
+</script>
+
+
+  </body>
+</html>

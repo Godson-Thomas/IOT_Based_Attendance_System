@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 #include <SoftwareSerial.h>
 #include <FirebaseArduino.h>
-#include <ArduinoJson.h> //install version 5.6.3
+#include <ArduinoJson.h> //Install version 5.6.3
 #include <ESP8266HTTPClient.h>
 #include <SPI.h>
 #include <MFRC522.h>

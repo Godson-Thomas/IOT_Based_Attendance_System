@@ -47,7 +47,7 @@ NOTE :: CREATE A PROJECT FOR LOGIN PAGE AND HOST IT. </br>:: CREATE ANOTHER PROJ
 ## To Mrs Sreevidya P Menon </br>
 ## Mr.Arun alumini FISAT EIE
 ## TEAM MEMBERS
-* JOHN PAUL</br>
-* GODSON THOMAS</br>
-* DERIN T JOSE</br>
-* AMRITHA M
+* John Paul</br>
+* Godson Thomas</br>
+* Derin T Jose</br>
+* Amrutha M
